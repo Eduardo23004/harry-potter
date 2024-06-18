@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 5px ;
+}
+
+#logo {
+    height: 35px;
+    margin-left: -100px;
+}
+
+#menu {
+    float: right;
+    margin-right: 10px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.comeco {
+    text-align: center;
+    padding: 50px;
+    background: #efefef;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+#conteudo {
+    padding: 50px;
+}
+
+.interacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caracter {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow:10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 250px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.caracter img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caracter img.autora{
+    width: 70%;
+    border-radius: 25px;
+}
+
+.caracter h2 {
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+.caracter p {
+    margin: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 10px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #555;
+}
+
+.autora {
+    border-radius: 10px;
+}
+
+.descricao {
+    margin-bottom: 10px;
+}
+
+.fotexto {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.fotexto img{
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+}
+
+.fotexto p{
+    text-align: left;
+    margin: 10px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+#grifinoria{
+    background: #fff;
+    padding: 5px;
+    margin: 38px;
+    border-radius: 15px;
+    border: 5px solid #8e0000
+}
+
+#grifinoria p{
+    text-align: left;
+    font-size: 17px;
+}
+
+.fotexto1 p{
+    text-align: left;
+    margin: 40px;
+    font-size: 17px;
+
+}
+
+.fotexto1 img{
+    float: left;
+    margin-right: 25px;
+    width: 250px;
+}
+#grifinoria h2{
+    margin-left: 15px;
+    width: 1000px;
+}
+
+#sonserina{
+    background: #fff;
+    padding: 20px;
+    margin: 35px;
+    border: 5px solid #1f6800;
+    border-radius: 15px;
+}
+#sonserina p{
+    text-align: left;
+    padding: 25px;
+    font-size: 17px;
+}
+
+#sonserina img{
+    float: left;
+    margin-right: 5px;
+    width: 290px;
+}
+
+#sonserina h2{
+    width: 1000px;
+}
+
+#corvinal{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border: 5px solid #0058af;
+    border-radius: 15px;
+}
+#corvinal p{
+    text-align: left;
+    padding: 20px;
+    font-size: 17px;
+}
+
+#corvinal img{
+    float: left;
+    margin-right: 25px;
+    width: 230px;
+}
+
+#corvinal h2{
+    width: 1000px;
+}
+
+#lufa-lufa{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border: 5px solid #f1af09;
+    border-radius: 15px;
+}
+#lufa-lufa p{
+    text-align: left;
+    padding: 20px;
+    font-size: 17px;
+}
+
+#lufa-lufa img{
+    float: left;
+    margin-right: 25px;
+    width: 250px;
+}
+
+#lufa-lufa h2{
+    width: 1000px;
+}
+
+.texto{
+    text-align: left;
+    margin: 35px;
+    font-size: 17px;
+}
+
+#quadribol{
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#quadribol h2{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#quadribol p{
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.pedra{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.pedra h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.pedra img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.pedra p{
+    text-align: left;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.camara{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.camara h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.camara img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.camara p{
+    text-align: left;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.prisioneiro{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.prisioneiro h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.prisioneiro img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.prisioneiro p{
+    text-align: left;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.calice{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    border: 2px solid;
+    border: 2px solid;
+}
+
+.calice h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.calice img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.calice p{
+    text-align: left;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.ordem{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.ordem h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.ordem img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.ordem p{
+    text-align: left;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.enigma{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.enigma h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.enigma img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.enigma p{
+    text-align: left;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.reliquias{
+    background: #fff;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.reliquias h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.reliquias img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.reliquias p{
+    text-align: left;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.harry{
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.harry h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.harry img{
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+.harry p{
+    text-align: left;
+    font-size: 17px;
+}
+
+.hermione{
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.hermione h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.hermione img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+.hermione p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.ron{
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.ron h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.ron img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.ron p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.draco{
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.draco h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.draco img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.draco p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.hagrid{
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.hagrid h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.hagrid img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+.hagrid p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.dumbledore {
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.dumbledore h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.dumbledore img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.dumbledore p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.minerva {
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.minerva h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.minerva img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.minerva p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.snape {
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.snape h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.snape img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.snape p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.sirius {
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.sirius h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.sirius img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.sirius p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.lord {
+    margin: 35px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid;
+    background: #fff;
+}
+
+.lord h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.lord img{
+    padding: 5px;
+    width: 250px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.lord p{
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+}
+
+
+#rodape {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 22px;
+    margin-top: 5px;
+}
+
+
+#rodape a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    color: #fff;
+}
